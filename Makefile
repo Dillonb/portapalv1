@@ -1,6 +1,6 @@
 OBJS = main.c
 CC = gcc
-LINKER_FLAGS = -lSDL2
+LINKER_FLAGS = -lSDL2 -lm
 COMPILER_FLAGS =
 
 OBJ_NAME = poopboy
